@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('product', "ProductsController");
+Route::post('/product/cart_add/{id}', 'ProductsController@cart_add');
