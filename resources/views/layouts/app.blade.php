@@ -31,6 +31,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/product">Productos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cart"><img src="img/carrrin.png" style="height: 30px;"> {{Cart::count()}}</a>
+          </li>
         </ul>
       </div>
     </nav>
